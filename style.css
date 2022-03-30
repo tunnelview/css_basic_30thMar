@@ -1,8 +1,17 @@
+/* element selector */
 p {
   color: blue;
   /* font-size: 80px; */
 }
-p {
-  color: pink;
-  /* font-size: 80px; */
+a {
+  color: red;
+}
+/* id selector - The rule of ID is that it shouldn't have duplicates */
+#fourth {
+  font-size: 30px;
+}
+
+/* class selector - we need to start with a dot*/
+.pg {
+  font-weight: bolder;
 }
