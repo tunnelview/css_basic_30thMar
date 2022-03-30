@@ -32,3 +32,8 @@ section > p {
 section + p {
   background: red;
 }
+
+/* Sibling - used to impact the tree structure of DOM (Data Object Model*/
+section ~ p {
+  background: green;
+}
