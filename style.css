@@ -27,3 +27,8 @@ angle bracket > defines the first level children*/
 section > p {
   background: black;
 }
+
+/* Adjdacent- means just next to you */
+section + p {
+  background: red;
+}
