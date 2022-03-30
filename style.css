@@ -37,3 +37,25 @@ section + p {
 section ~ p {
   background: green;
 }
+
+/* attribute selector */
+[href] {
+  font-size: 32px;
+  text-decoration: none;
+}
+
+[href="sdfe"] {
+  color: indigo;
+}
+
+/* psudo element selector */
+p::first-letter {
+  color: red;
+  font-size: 32px;
+}
+
+/* sudo class selector */
+a:hover {
+  color: turquoise;
+  font-size: 16px;
+}
