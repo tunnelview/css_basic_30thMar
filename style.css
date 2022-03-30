@@ -15,3 +15,15 @@ a {
 .pg {
   font-weight: bolder;
 }
+
+/*----------- Element Selector------------ */
+/* Descendant  - used to include all the nested elements*/
+section p {
+  color: green;
+}
+
+/* Child > - this angle bracket is like giving path way and the
+angle bracket > defines the first level children*/
+section > p {
+  background: black;
+}
