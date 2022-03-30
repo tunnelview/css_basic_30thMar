@@ -49,13 +49,17 @@ section ~ p {
 }
 
 /* psudo element selector */
-p::first-letter {
+/* p::first-letter {
   color: red;
   font-size: 32px;
-}
+} */
 
 /* sudo class selector */
 a:hover {
   color: turquoise;
   font-size: 16px;
+}
+
+p:nth-child(even) {
+  color: red;
 }
